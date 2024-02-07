@@ -36,12 +36,12 @@ class MersenneTwister:
         self.index = 0
 
 
-# Test the Mersenne Twister with a seed of 12345
-mt = MersenneTwister(12345)
+# # Test the Mersenne Twister with a seed of 12345
+# mt = MersenneTwister(12345)
 
-# Generate 10 random numbers
-output = []
-for _ in range(10):
-    output.append(mt.extract_number())
+# # Generate 10 random numbers
+# output = []
+# for _ in range(10):
+#     output.append(mt.extract_number())
 
-print(output)
+# print(output)
