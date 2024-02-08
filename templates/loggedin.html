@@ -1,0 +1,28 @@
+$def with (name, isAdmin)
+
+<html>
+	<head>
+		<link href="static/calpoly.css" type='text/css' rel='stylesheet' />
+		<title>Cal Poly Authentication (not really)</title>
+	</head>
+	<body>
+		<div id='topRow'><p>Welcome, $name!</p></div>
+		<div id='fakeContainer'> </div>
+		<div id='centerContainer'>
+			<center>
+				$if isAdmin:
+				   <img src="static/dealwithit-sloth.gif"/>
+			</center>
+			<a href="/">Return</a>
+		</div>
+		<div id='bottomRow'>
+			<center>
+			<b>Disclaimer</b>: This is not the real Cal Poly Authentication portal. It's probably not safe to enter your real Cal Poly username and password.
+			</center>
+		</div>
+	</body>
+</html>
+
+
+
+
